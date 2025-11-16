@@ -1,0 +1,62 @@
+# Data files
+data/raw/**/*.csv
+data/raw/**/*.zip
+data/processed/**/*.parquet
+data/processed/**/*.csv
+data/metadata/**/*.json
+
+# Logs
+logs/**/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Planning Documents and Archive
+.archive/
+README_OLD.md
+
+# Keep directory structure
+!data/raw/initial/.gitkeep
+!data/raw/monthly/.gitkeep
+!data/processed/.gitkeep
+!data/metadata/.gitkeep
+!logs/.gitkeep

@@ -1,0 +1,28 @@
+# Core ETL dependencies
+requests>=2.31.0
+pandas>=2.0.0
+pyarrow>=13.0.0
+tqdm>=4.66.0
+python-dateutil>=2.8.2
+
+# Data visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Geographic analysis and mapping
+folium>=0.14.0
+geopandas>=0.13.0
+shapely>=2.0.0
+
+# Geocoding
+geopy>=2.3.0
+
+# Jupyter and notebook tools
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# MCP server (future)
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# pydantic>=2.0.0
